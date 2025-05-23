@@ -1,0 +1,22 @@
+{
+  "name": "express-blog-routing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/EdoardoPosfortunato/express-blog-routing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdoardoPosfortunato/express-blog-routing/issues"
+  },
+  "homepage": "https://github.com/EdoardoPosfortunato/express-blog-routing#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
