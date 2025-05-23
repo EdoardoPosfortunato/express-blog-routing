@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 //    res.send(req.params.id)
 // })
 
-app.use('/posts', moviesRouter)
+app.use('/posts', moviesRouter) // registrare il router
 
 
 app.listen(port, () => {
