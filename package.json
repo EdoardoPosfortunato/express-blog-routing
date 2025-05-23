@@ -6,7 +6,7 @@
     "dev": "node --watch index.js"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/EdoardoPosfortunato/express-blog-routing.git"
   },
   "author": "",
@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/EdoardoPosfortunato/express-blog-routing#readme",
   "description": "",
+  "type": "module",
   "dependencies": {
     "express": "^5.1.0"
   }
