@@ -15,10 +15,10 @@ router.get("/", (req, res) => {
 
 // SHOW
 router.get("/:id", (req, res) => {
-  const filmId = req.params.id;
-  const film = films.find((curFilm) => curFilm.id == filmID);
+  const filmId = parseInt(req.params.id);
+    const film = films.find((curFilm) => curFilm.id === filmId);
   res.json({
-    data: film,
+    data: film
   });
 });
 
@@ -47,6 +47,7 @@ router.delete("/:id", (req, res) => {
     data: `Cancello un film con id ${filmId}`,
   });
 });
+
 
 
 
