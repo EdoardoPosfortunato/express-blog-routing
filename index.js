@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 //    res.send(req.params.id)
 // })
 
-app.use('/movies', moviesRouter)
+app.use('/posts', moviesRouter)
 
 
 app.listen(port, () => {

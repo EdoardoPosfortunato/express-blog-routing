@@ -26,7 +26,7 @@ router.get("/:id", (req, res) => {
 // STORE
 router.post("/", (req, res) => {
   res.json({
-    data: "Aggiungo un nuovo gioco",
+    data: "Aggiungo un nuovo film",
   });
 });
 
@@ -35,7 +35,7 @@ router.post("/", (req, res) => {
 router.put("/:id", (req, res) => {
   const filmId = req.params.id;
   res.json({
-    data: `Modifico un singolo gioco con id ${filmId}`,
+    data: `Modifico un singolo film con id ${filmId}`,
   });
 });
 
@@ -44,7 +44,7 @@ router.put("/:id", (req, res) => {
 router.delete("/:id", (req, res) => {
   const filmId = req.params.id;
   res.json({
-    data: `Cancello un gioco con id ${filmId}`,
+    data: `Cancello un film con id ${filmId}`,
   });
 });
 
