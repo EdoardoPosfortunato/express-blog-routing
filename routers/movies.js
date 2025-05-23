@@ -15,7 +15,7 @@ router.get("/", (req, res) => {
 
 // SHOW
 router.get("/:id", (req, res) => {
-  const filmId = parseInt(req.params.id);
+  const filmId = parseInt(req.query.id);
     const film = films.find((curFilm) => curFilm.id === filmId);
   res.json({
     data: film
